@@ -1,0 +1,32 @@
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0;
+}
+.botoes-filmes{
+    padding: 0.5em 1.5em;
+    border-radius: 16px;
+    box-shadow: 7px 7px 0 #002F52 ;
+    cursor: pointer;
+    font-family: var(--fonte-corpo);
+    font-size: 15px;
+    background: #5b94b1;
+    color: #fff;
+}
+.botoes-filmes:hover{
+    background: #fff;
+    color: #002F52;
+}
+.caixa-lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+}

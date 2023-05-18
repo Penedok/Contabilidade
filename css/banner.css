@@ -1,6 +1,7 @@
 .principal{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+   
 
 }
 .banner{
@@ -21,4 +22,5 @@
     color: #fff;
     font-size: 20px;
     padding: 0 4em;
+    font-weight: 300;
 }

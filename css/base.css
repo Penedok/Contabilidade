@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./banner.css);
+@import url(./botoes.css);
 
 :root{
  --background-corpo: linear-gradient(#130949, #261983, #391e94);
@@ -17,4 +18,5 @@ body{
     background-repeat: no-repeat;
     font-family: var(--fonte-corpo);
     width: 100vw;
+  
 }
