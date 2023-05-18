@@ -1,0 +1,17 @@
+@import url(./header.css);
+
+:root{
+ --background-corpo: linear-gradient(#130949, #261983, #391e94);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--background-corpo);
+    background-repeat: no-repeat;
+    width: 100vw;
+}
