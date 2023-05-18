@@ -35,7 +35,6 @@
     font-family: var(--fonte-corpo)
 }
 .btn-socio{
-    background: #fff;
     border: 1px solid transparent;
     padding: 0.5em 2em;
     border-radius: 16px;
@@ -43,8 +42,10 @@
     cursor: pointer;
     font-family: var(--fonte-corpo);
     font-size: 15px;
-}
-.btn-socio:hover{
     background: #5b94b1;
     color: #fff;
+}
+.btn-socio:hover{
+    background: #fff;
+    color: #002F52;
 }
