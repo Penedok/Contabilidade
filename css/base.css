@@ -2,6 +2,7 @@
 
 :root{
  --background-corpo: linear-gradient(#130949, #261983, #391e94);
+ --fonte-corpo: 'Poppins', sans-serif;
 
 }
 *{
@@ -13,5 +14,6 @@
 body{
     background: var(--background-corpo);
     background-repeat: no-repeat;
+    font-family: var(--fonte-corpo);
     width: 100vw;
 }
