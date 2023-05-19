@@ -1,0 +1,11 @@
+.caixa-carrosel{
+    display: flex;
+    flex-direction: row;
+}
+.carrosel{
+    display: flex;
+  
+}
+.item{
+    width: 27%;
+}
