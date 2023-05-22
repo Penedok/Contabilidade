@@ -1,15 +1,22 @@
-.principal{
+ *.principal{
     display: flex;
     flex-direction: column;
-   
-
+    justify-content: center;
+    
 }
+.tipos-musicais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .banner{
-  padding: 2em 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5em;
+  padding: 2em 0;
+  margin: 0 0 0 4em;
+
 }
 .banner-imagem{
     width: 50%;

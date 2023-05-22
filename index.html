@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/base.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -19,16 +21,14 @@
         <div class="busca-cabecalho">
             <input type="search" class="buscador" placeholder="Busque seu musical"/>
         </div>
-        <div class="busca-cabecalho">
-            <button type="menu" class="btn-socio" >Seja Socio</button>
+        <div class="caixa-socio">
+            <button type="button" class="btn-socio" >Seja Socio</button>
         </div>
     </header>
-    
-
     <main class="principal">
         <section class="tipos-musicais">
             <div class="banner">
-                <img src="./imagen/border.jpg" class="banner-imagem" alt="um homem e uma mulher dançando e cantando">
+                <img src="./imagen/border.jpg" class="banner-imagem" alt="um homem e uma mulher dançando e cantando"/>
                     <p class="paragrafo-border">Os musicais nasceram no final do século XIX na Inglaterra, em peças teatrais do gênero “comédia musical”,
                         e se estenderam à modernidade, principalmente na Broadway, nos Estados Unidos.
                         Por sua vez, a beleza dos musicais é a forma como conseguem reunir diversas das artes essenciais 
@@ -49,35 +49,64 @@
             <div class="caixa-lateral">
                 <aside class="lateral">
                     <label class="carrinho">Seu Músical em Casa</label>
-                    <label class="nome">Filme</label>
+                    <label class="nome">Classe</label>
                     <input type="text"/>
                     <label class="preço">Preço</label>
                     <input type="number"/>
                 </aside>
             </div>
         </section>
-        <section class="caixa-carrosel">
-      
+        <section class="caixa-texto">
+            <div class="caixa-texto">
+                <div class="titulo">
+                    <h2 class="titulo-atemporais">Os Atemporais</h2>
+                    <p class="paragrafo-atemporais">Estamos falando dos mais queredinhos da
+                        Broadway e do coração dos que amam os musicais. E você pode leva-los 
+                        para casa em Blueray apenas com um clique.
+                    </p>
+                        <ul>
+                            <label class="preco"></label>
+                            <li>Amor Sublime amor: R$ 45,00</li>
+                            <li>Mágico de Oz R$ 39,00 </li>
+                            <li>Noviça Rebelde R$ 44,55</li>
+                            <li>Mary Poppins R$ 42.50</li>
+                            <li>Cantando na Chuva R$ 38,80</li>
+                        </ul>
+                </div>    
+                <div class="botao-remover-comprar">
+                    <button class="comprar" type="button">Adicionar no 🛒</button>
+                    <button class="remover" type="button">Remover</button>
+                    <button class="comprar" type="button">Comprar</button>
+                    
+                </div>
+            </div>    
+        </section>
+        <section class="caixa-carrossel">
            <div class="carrossel">
                 <div class="caixa-galeria">
+                    <button  class="arrow-right control-atemporais" type="button">▶️</button>
                     <div class= "galeria">
-                        <button aria-label="Previouimage" class="arrow-left control">▶️</button> 
-                        <img src="./imagen/amor-sublime.jpg" class="item">
-                        <img src="./imagen/magico-de-oz.webp" class="item">
-                        <img src="./imagen/noviça.jfif" class="item">
-                        <button aria-label="Previouimage" class="arrow-left control">◀️</button>
+                        <img src="./imagen/amor-sublime.jpg" class="item-atemporais ">
+                        <img src="./imagen/magico-de-oz.webp" class="item-atemporais corrente-atemporais">
+                        <img src="./imagen/noviça.jpg" class="item-atemporais corrente-atemporais">
+                        <img src="./imagen/mary-poppys.jpg" class="item-atemporais corrente-atemporais">
+                        <img src="./imagen/cantando.jpg" class="item-atemporais corrente-atemporais">
+                        <img src="./imagen/noviça.jpg" class="item-atemporais corrente-atemporais">
                     </div>
-                 
+                    <button  class="arrow-left control-atemporais" type="button">◀️</button>
                 </div>    
-             
             </div>
+        </section>
 
-        </section>    
+
+
+                  
     </main>
-           
 
 
 
-    <script src="./main.js"></script>
+
+    <script src="./carrossel-atemporais.js"></script>
+
 </body>
 </html>
