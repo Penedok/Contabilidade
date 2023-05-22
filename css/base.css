@@ -2,6 +2,8 @@
 @import url(./banner.css);
 @import url(./botoes.css);
 @import url(./carrosel-atemporais.css);
+@import url(./carrossel-conteporaneos.css);
+@import url(./carrossel-animacoes.css);
 
 :root{
  --background-corpo: linear-gradient(#130949, #261983, #391e94);
