@@ -12,6 +12,7 @@
     font-size: 15px;
     background: #5b94b1;
     color: #fff;
+   text-decoration: none;
 }
 .botoes-filmes:hover{
     background: #fff;
@@ -21,6 +22,42 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.botao-remover-comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comprar{
+    padding: 0.1em 1.5em;
+    border-radius: 16px;
+    box-shadow: 7px 7px 0 #002F52 ;
+    cursor: pointer;
+    font-family: var(--fonte-corpo);
+    font-size: 15px;
+    background: #5b94b1;
+    color: #fff;
+   text-decoration: none;
+}
+.comprar:hover{
+    background: #fff;
+    color: #002F52;
+}
+.remover{
+    padding: 0.5em 1.5em;
+    border-radius: 16px;
+    box-shadow: 7px 7px 0 #002F52 ;
+    cursor: pointer;
+    font-family: var(--fonte-corpo);
+    font-size: 15px;
+    background: #5b94b1;
+    color: #fff;
+   text-decoration: none;
+    margin: 0 0 0 0.9em;
+}
+.remover:hover{
+    background: #fff;
+    color: #002F52;
 }
 .lateral{
     display: flex;

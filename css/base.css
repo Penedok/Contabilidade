@@ -1,9 +1,10 @@
 @import url(./header.css);
 @import url(./banner.css);
 @import url(./botoes.css);
-@import url(./carrosel-atemporais.css);
-@import url(./carrossel-conteporaneos.css);
-@import url(./carrossel-animacoes.css);
+@import url(./secao-atemporais.css);
+@import url(./secao-conteporaneos.css);
+@import url(./secao-animacoes.css);
+@import url(./listas.css);
 
 :root{
  --background-corpo: linear-gradient(#130949, #261983, #391e94);
@@ -22,4 +23,10 @@ body{
     font-family: var(--fonte-corpo);
  
   
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
 }

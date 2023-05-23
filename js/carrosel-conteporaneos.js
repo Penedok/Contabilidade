@@ -2,7 +2,7 @@ const control = document.querySelectorAll('.control-conteporaneos')
 let correntesItem = 0;
 
 const item = document.querySelectorAll('.item-conteporaneos');
-const maximoItems = items.length;
+const maximoItems = item.length;
 
 control.forEach((control) => {
     control.addEventListener('click', ()=>{
