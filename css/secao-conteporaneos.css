@@ -1,0 +1,65 @@
+
+.caixa-texto{
+    display: flex;
+    padding: 1em 2em;
+ 
+}
+.caixa-carrossel{
+    position: relative;
+    max-width: 900px;
+    margin: 0 0 2em 4.5em;
+}
+.carrossel{
+    overflow: scroll;
+}
+.galeria{
+    display: flex;
+    flex-direction: row nowrap;
+    gap: 15px;
+    padding: auto;
+}
+.item-conteporaneos{
+    width: 25%;     
+    height: 250px;
+    flex-shrink: 0;     /*faz as imagens caberem dentro do caixa*/
+    opacity: 1;
+    transition: all 600ms ease-in-out;
+    scroll-snap-align: center;
+} 
+
+.arrow-esquerda, .arrow-direita{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 15px;
+    line-height: 200px;
+    width: 40px;
+    text-align: center;
+    color:#fff;
+    cursor: pointer;
+    border: 0;
+    background: linear-gradient( to left, transparent, #fff); 
+    opacity: 1;
+     transition: all 600ms ease-in-out; 
+}
+.arrow-direita{
+    left: auto;
+    right: 0;
+    background: linear-gradient( to left, transparent, #fff)  
+}
+.arrow-esquerda:hover,
+.arrow-direita:hover{
+    opacity: 1;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.carrossel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .carrossel{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

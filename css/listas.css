@@ -1,0 +1,22 @@
+.titulo{
+    display: flex;
+    flex-direction: column;
+}
+.titulo-classe{
+    color: #fff;
+    padding: 1em 0 0 0.7em ;
+}
+.paragrafo-classe{
+    color: #fff;
+    margin: 0 0 0 0 1em;
+    font-weight: 300;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.item-lista{
+    padding: 0.3em 1em ;
+    color: #fff;
+    list-style: none;
+    text-transform: uppercase;
+}

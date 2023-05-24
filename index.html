@@ -51,13 +51,13 @@
         <section class="caixa-texto" id="atemporais">
             <div class="caixa-texto">
                 <div class="titulo">
-                    <h2 class="titulo-atemporais">Os Atemporais</h2>
-                    <p class="paragrafo-atemporais">Estamos falando dos mais queredinhos da
+                    <h2 class="titulo-classe">Os Atemporais</h2>
+                    <p class="paragrafo-classe">Estamos falando dos mais queredinhos da
                         Broadway e do coração dos que amam os musicais. E você pode esse kit como os
                         os melhores filmes.
                     </p>
                         <ul class="lista">
-                            <label class="preco-lista"></label>
+                          
                             <li class="item-lista">Amor Sublime amor</li>
                             <li  class="item-lista">Mágico de Oz </li>
                             <li  class="item-lista">Noviça Rebelde </li>
@@ -65,12 +65,14 @@
                             <li  class="item-lista">Cantando na Chuva</li>
                             <li  class="item-lista">Footloose</li>
                             <li  class="item-lista">Grease</li>
-                            <li class="item-lista" >Tudo isso por apenas 65,00$</li>
+                            
                         </ul>
+                      
                 </div>    
                 <div class="botao-remover-comprar">
-                    <button class="comprar" type="button">Adicionar no 🛒</button>
-                    <button class="remover" type="button">Remover</button>
+                    <input type="number"class="adicionar" value="0">
+                    <label class="texto-carrinho">Adicionar no 🛒</label>
+                    <label class="preco-produto"> R$ 80,00</label>
                 </div>
             </div>    
         </section>
@@ -94,13 +96,13 @@
         <section class="caixa-texto" id="conteporaneos">
             <div class="caixa-texto">
                 <div class="titulo">
-                    <h2 class="titulo-conteporaneos">Os Conteporaneos</h2>
-                    <p class="paragrafo-conteporaneos">Estamos falando dos mais queredinhos da
+                    <h2 class="titulo-classe">Os Conteporâneos</h2>
+                    <p class="paragrafo-classe">Estamos falando dos mais queredinhos da
                         Broadway e do coração dos que amam os musicais. E você pode esse kit como os
                         os melhores filmes.
                     </p>
                         <ul class="lista">
-                            <label class="preco-lista"></label>
+                           
                             <li class="item-lista">O Fanstama da Opera</li>
                             <li class="item-lista">Chicago</li>
                             <li class="item-lista">Os Miseráveis</li>
@@ -108,12 +110,14 @@
                             <li class="item-lista">Hamilton</li>
                             <li class="item-lista">Lala Land</li>
                             <li class="item-lista">Grease</li>
-                            <li class="item-lista">Tudo isso por apenas 65,00$</li>
+                           
                         </ul>
+                        
                 </div>    
                 <div class="botao-remover-comprar">
-                    <button class="comprar" type="button">Adicionar no 🛒</button>
-                    <button class="remover" type="button">Remover</button>  
+                    <input type="number"class="adicionar" value="0">
+                    <label class="texto-carrinho">Adicionar no 🛒</label> 
+                    <label class="preco-produto">R$ 72,00</label> 
                 </div>
             </div>    
         </section>
@@ -137,8 +141,8 @@
         <section class="caixa-texto" id="animacoes">
             <div class="caixa-texto">
                 <div class="titulo">
-                    <h2 class="titulo-animacoes">As Animações</h2>
-                    <p class="paragrafo-animacoes">Estamos falando dos mais queredinhos da
+                    <h2 class="titulo-classe">As Animações</h2>
+                    <p class="paragrafo-classe">Estamos falando dos mais queredinhos da
                         Broadway e do coração dos que amam os musicais. E você pode esse kit como os
                         os melhores filmes.
                     </p>
@@ -153,11 +157,13 @@
                             <li class="item-lista">Anastacia</li>
                          
                         </ul>
-                        <label class="preco-lista">Tudo isso por apenas 65,00$</label>
+                       
+                        
                 </div>    
                 <div class="botao-remover-comprar">
-                    <button class="comprar" type="button">Adicionar no 🛒</button>
-                    <button class="remover" type="button">Remover</button>
+                    <input type="number"class="adicionar" value="0"/>
+                    <label class="texto-carrinho"> Adicionar no 🛒</label>
+                    <label class="preco-produto "> R$ 58,00</label>
                 </div>
             </div>    
         </section>
@@ -182,18 +188,15 @@
     <div class="caixa-lateral">
         <div class="texto-compra">
             <h3 class="titulo-compra">Podemos finalizar?</h3>
-            <p class="paragrafo-compra">Está tudo que gostaria dentro do seu carrinho?</p>
-        </div>
-        <aside class="lateral">
-            <label class="carrinho">Seu Músical em Casa</label>
-            <label class="nome">Classe</label>
-            <input type="text"/>
-            <label class="preço">Preço</label>
-            <input type="number"/>
-            <button class="comprar" type="button">Comprar</button>
-        </aside>
+        </div> 
     </div>
-    
+    <div class="compras">
+        <div class="mostra-total"> 
+            <label class="preco" >Total</label>
+            <span class="total" id="total" > 0 </span>
+            <button class="comprar" type="button">Comprar</button>
+        </div>
+    </div>
     <footer>
         <p class="rodape">
            &copy; Copyright - Desenvolvido por <strong>Karen Penedo</strong>
@@ -207,6 +210,7 @@
     <script src="./js/carrosel-conteporaneos.js"></script>
     <script src="./js/carrossel-animacoes.js"></script>
     <script src="./js/botoes-categorias.js"></script>
+    <script src="./js/compra.js"></script>
 
 </body>
 </html>
